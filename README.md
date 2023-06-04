@@ -19,7 +19,7 @@
   </tr>
   <tr>    
     <td><a href="script2.py">Script to download videos from playlist links given in a text file </a></td> 
-    <td><img src="https://img.shields.io/static/v1?label=status&message=Successful&color=red"/> </td>
+    <td><img src="https://img.shields.io/static/v1?label=status&message=Successful&color=green"/> </td>
   </tr>
     <tr>    
     <td><a href="script3.py">Script to download screenshot of videos </a></td> 
