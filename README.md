@@ -7,3 +7,23 @@
 # Usage
 1. Install all the required packages from requirements.txt using `pip install -r requirements.txt`
 2. You can run your chosen script file by `python script.py` or generally `python FILENAME.py`  
+# All scripts
+<table>
+  <tr>
+  <th>Scripts</th>
+  <th>Status</th>
+  </tr>
+  <tr>
+    <td><a href="script1.py">Script to download videos from a playlist url </a></td> 
+    <td> <img src="https://img.shields.io/static/v1?label=status&message=Successful&color=green"/> </td>
+  </tr>
+  <tr>    
+    <td><a href="script2.py">Script to download videos from playlist links given in a text file </a></td> 
+    <td><img src="https://img.shields.io/static/v1?label=status&message=Successful&color=red"/> </td>
+  </tr>
+    <tr>    
+    <td><a href="script3.py">Script to download screenshot of videos </a></td> 
+    <td><img src="https://img.shields.io/static/v1?label=status&message=Error&color=red"/> </td>
+  </tr>
+
+</table>
