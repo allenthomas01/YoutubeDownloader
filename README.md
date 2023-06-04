@@ -1,4 +1,5 @@
 # YoutubeDownloader
+Python scripts that allows you to download youtube videos in terminal.
 
 ## WARNING
 - This is strictly for educational purposes only.
