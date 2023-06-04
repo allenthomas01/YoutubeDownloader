@@ -1,4 +1,4 @@
-# cript to download all the youtube videos given as links in a text file. the decreasing preference order of video quality should be 720p,480p,360p,250p. that is , if 720p not found, then 480p, if 480p not found then 360p likewise
+# script to download all the youtube videos given as links in a text file. the decreasing preference order of video quality should be 720p,480p,360p,250p. that is , if 720p not found, then 480p, if 480p not found then 360p likewise
 
 # give the link file,install pytube
 
