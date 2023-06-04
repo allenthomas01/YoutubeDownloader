@@ -14,7 +14,7 @@
   <th>Status</th>
   </tr>
   <tr>
-    <td><a href="script1.py">Script to download videos from a playlist url </a></td> 
+    <td><a href="script.py">Script to download videos from a playlist url </a></td> 
     <td> <img src="https://img.shields.io/static/v1?label=status&message=Successful&color=green"/> </td>
   </tr>
   <tr>    
