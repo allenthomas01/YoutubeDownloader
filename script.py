@@ -28,9 +28,11 @@ for url in video_urls[START_VIDEO - 1:END_VIDEO]:
     except pytube.exceptions.PytubeError:
         # If error occurs, fallback title
         video_title = "Unknown_Title"
+    # add current video number
+    current_video_number = START_VIDEO + index
 
-    # Print the video's title
-    print(f"Downloading '{video_title}' ...")
+    # Print the video's title with the current video number
+    print(f"Downloading {current_video_number}: '{video_title}' ...")
 
     # Check if the output directory exists, and create it if it doesn't
     if not os.path.exists(output_dir):
