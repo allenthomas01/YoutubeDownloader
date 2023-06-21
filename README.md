@@ -28,3 +28,8 @@ Python scripts that allows you to download youtube videos in terminal.
   </tr>
 
 </table>
+
+### Sample video
+
+![YoutubeDownloader working](https://github.com/allenthomas01/YoutubeDownloader/assets/82997175/789e591e-f120-4bce-991e-7e13e4f83f51)
+
