@@ -17,8 +17,8 @@ playlist = pytube.Playlist(PLAYLIST_URL)
 # Get a list of all the video URLs in the playlist
 video_urls = playlist.video_urls
 
-# Iterate over the list of video URLs 
-for url in video_urls[START_VIDEO - 1:END_VIDEO]:
+# Iterate over the list of video URLs
+for index, url in enumerate(video_urls[START_VIDEO - 1:END_VIDEO]):
     # Create a PyTube video object
     video = pytube.YouTube(url)
 
@@ -28,7 +28,8 @@ for url in video_urls[START_VIDEO - 1:END_VIDEO]:
     except pytube.exceptions.PytubeError:
         # If error occurs, fallback title
         video_title = "Unknown_Title"
-    # add current video number
+
+    # Calculate the current video number
     current_video_number = START_VIDEO + index
 
     # Print the video's title with the current video number
